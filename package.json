@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/test.js"
   },
   "author": "Froz-Ferre",
   "license": "MIT",
@@ -14,8 +14,8 @@
     "mongodb": "^2.2.31"
   },
   "devDependencies": {
-  	"mocha": "1.7.0",
-  	"should": "1.2.1",
-  	"supertest": "0.4.0"
+    "mocha": "1.7.0",
+    "should": "1.2.1",
+    "supertest": "0.4.0"
   }
 }
